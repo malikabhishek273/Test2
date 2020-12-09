@@ -19,7 +19,7 @@ public class Test {
             if (x != 30&&x != 0&&map.containsKey(60-x))
                 ans += map.get(60 - x);
         }
-        ans/=2;
+        ans/=3;
         int zero=0;
         if(map.containsKey(0)) {
             zero = map.get(0);
